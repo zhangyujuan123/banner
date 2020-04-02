@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<div class="box" id="box">
+		</div>
+		<script type="text/javascript" src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src='./banner.js'></script>
+		<script>
+			$(function(){
+				banner.show({
+					container:'#box',
+        			count:5,//指的是轮播的图片
+        			time:3000
+				});
+			})
+		</script>
+	</body>
+</html>
